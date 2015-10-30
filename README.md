@@ -115,7 +115,5 @@ nothing to commit, working directory clean
 
 D:\KLD_CS1_WorkSpace\RandomCharacter>
 
-
-
-
-
+## Summary
+I really enjoyed this homework assignment. I'm glad we are learning more about markdown and documentation. The homework itself wasn't that difficult, but the documentation is what made this homework an important assignment. 
