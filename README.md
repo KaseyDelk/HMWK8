@@ -24,6 +24,7 @@ Your random letter is : V
 Your random letter is : U
 Your random letter is : Z
 Your random letter is : D
+```
 
 ## Command Line Prompts
 
