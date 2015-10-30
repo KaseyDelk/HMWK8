@@ -29,6 +29,7 @@ Your random letter is : D
 ## Command Line Prompts
 
 **C:\Users\Kasey>d:**
+Everything under this heading that bold is a command that I actually typed in the command line.
 
 D:\>dir
  Volume in drive D is KASEY
