@@ -1,4 +1,5 @@
-# Homework 8 - Random Character
+# Homework 8
+###Random Character
 This code is a part of our 8th Homework assignment in COMSC 1033. The code taught us how to use the random math method to generate random characters. We also leared how to use markdown for documentation. I used github as well for this homework assignment.
 
 ## Code
@@ -18,7 +19,7 @@ public class RandomCharacter {
 
 ## Console Output
 The following are all seperate test cases that appeared in my console after I ran my java code.
-```
+```java
 Your random letter is : K
 Your random letter is : V
 Your random letter is : U
