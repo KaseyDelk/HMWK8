@@ -31,7 +31,7 @@ Your random letter is : D
 Everything under this heading that bold is a command that I actually typed in the command line.
 
 **C:\Users\Kasey>d:**
-
+```
 D:\>dir
  Volume in drive D is KASEY
  Volume Serial Number is 286C-AE8E
@@ -118,3 +118,4 @@ D:\KLD_CS1_WorkSpace\RandomCharacter>
 
 ## Summary
 I really enjoyed this homework assignment. I'm glad we are learning more about markdown and documentation. The homework itself wasn't that difficult, but the documentation is what made this homework an important assignment. 
+```
