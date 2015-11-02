@@ -31,7 +31,7 @@ Your random letter is : D
 Everything under this heading that bold is a command that I actually typed in the command line.
 
 ```
-**C:\Users\Kasey>d:**
+C:\Users\Kasey>d:
 D:\>dir
  Volume in drive D is KASEY
  Volume Serial Number is 286C-AE8E
@@ -60,9 +60,9 @@ D:\>dir
                2 File(s)        360,290 bytes
               17 Dir(s)   7,624,835,072 bytes free
 
-**D:\>cd KLD_CS1_WorkSpace**
+D:\>cd KLD_CS1_WorkSpace
 
-**D:\KLD_CS1_WorkSpace>cd RandomCharacter**
+D:\KLD_CS1_WorkSpace>cd RandomCharacter
 
 D:\KLD_CS1_WorkSpace\RandomCharacter>dir
  Volume in drive D is KASEY
@@ -80,13 +80,13 @@ D:\KLD_CS1_WorkSpace\RandomCharacter>dir
                3 File(s)          1,545 bytes
                4 Dir(s)   7,624,835,072 bytes free
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git config user.name "Kasey Delk"**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git config user.name "Kasey Delk"
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git config user.email "delkk@student.swosu.edu"**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git config user.email "delkk@student.swosu.edu"
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git add .**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git add .
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git commit -m "First commit"**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git commit -m "First commit"
 [master (root-commit) 69f4d04] First commit
  5 files changed, 67 insertions(+)
  create mode 100644 .classpath
@@ -95,9 +95,9 @@ D:\KLD_CS1_WorkSpace\RandomCharacter>dir
  create mode 100644 bin/RandomCharacter.class
  create mode 100644 src/RandomCharacter.java
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git remote add origin https://github.com/KaseyDelk/HMWK8.git**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git remote add origin https://github.com/KaseyDelk/HMWK8.git
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git push -u origin master**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git push -u origin master
 Username for 'https://github.com': KaseyDelk
 Password for 'https://KaseyDelk@github.com':
 Counting objects: 9, done.
@@ -109,7 +109,7 @@ To https://github.com/KaseyDelk/HMWK8.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 
-**D:\KLD_CS1_WorkSpace\RandomCharacter>git status**
+D:\KLD_CS1_WorkSpace\RandomCharacter>git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
