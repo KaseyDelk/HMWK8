@@ -47,7 +47,7 @@ A
 ```
 
 ## Command Line Prompts
-
+```
 C:\Users\Kasey>d:
 
 D:\>dir
