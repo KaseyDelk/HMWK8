@@ -1,24 +1,18 @@
 public class RandomCharacter {
 	public static void main(String[] args) {
-	
-		System.out.println("Hello.");
+			
+		int startingValue = 65;
+		// 65 is the number value assigned to letter A
+		
+		int endingValue = 90 - 65 + 1;
+		/* 90 is the number value assigned to letter B
+		*but Math.random excludes the upper limit, so
+		*we added one more to ensure included Z in the
+		*possible outputs.
+		*/
+		
+		//display letter for the user
+		System.out.println((char)(startingValue + Math.random() * endingValue));
+		
 	}
 }
-		
-	
-	
-	
-	
-	
-	
-	/* I am commenting out the code that I wrote myself to ensure that
-		* my code is correct.
-		* 
-		* Code:
-		* 
-		* //Get computer to generate a random character
-		* char randomChar = (char)((int)'A' + Math.random() * ((int)'Z'-(int)'A'+1));
-		* 
-		* //Display characters for user
-		* System.out.println("Your random letter is : " + randomChar);
-		*/
