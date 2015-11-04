@@ -292,6 +292,8 @@ To https://github.com/KaseyDelk/HMWK8.git
 E:\KLD_CS1_WorkSpace\RandomCharacter>
 ```
 
+## Summary
+
 
 
 
