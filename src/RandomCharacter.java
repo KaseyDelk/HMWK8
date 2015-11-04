@@ -13,6 +13,6 @@ public class RandomCharacter {
 		
 		//display letter for the user
 		System.out.println((char)(startingValue + Math.random() * endingValue));
-		
 	}
 }
+
