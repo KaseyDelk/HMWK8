@@ -9,16 +9,15 @@ public class RandomCharacter {
 		System.out.println(letter);
 	}
 	public static char generateRandomCharacter(){
-		int startingValue = 65; // A was 65, our starting value
-		int endingValue = 90 - 65 + 1; 	/*Z was 90
-		* but Math.random excludes the upper limit, so we added one 
-		* more to ensure it included Z in the possible outputs.
-		* More information on an ASCII table.*/
+		int startingValue = 65;
 		
-		/* Math.random example copied from Brennon Cupp's 
-		 * previous work: work_class.java 
-		 * More information from the Java text in 
-		 * section 4.2.5, the random method.*/
+		
+		int endingValue = 90 - 65 + 1; 	/*Z was 90
+		/* 90 is the number value assigned to letter B
+		*but Math.random excludes the upper limit, so
+		*we added one more to ensure included Z in the
+		*possible outputs.
+		*/
 		
 		char letter = (char)(startingValue + Math.random()*(endingValue));
 		//System.out.print(letterRandom);
