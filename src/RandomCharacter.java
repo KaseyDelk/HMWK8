@@ -4,11 +4,11 @@ public class RandomCharacter {
 		char letter = generateRandomCharacter();
 		System.out.print("The random letter is : ");
 		System.out.println(letter);
+		
+}
 	
-	}
-		
 		public static char generateRandomCharacter(){
-		
+			
 		int startingValue = 65;
 		// 65 is the number value assigned to letter A
 		
@@ -25,4 +25,7 @@ public class RandomCharacter {
 		return letter;
 	}
 }
+		
+		
+
 
