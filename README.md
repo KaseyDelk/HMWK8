@@ -2,6 +2,7 @@
 This code is a part of our 8th Homework assignment in COMSC 1033. The code taught us how to use the random math method to generate random characters. We also leared how to use markdown for documentation. I used github as well for this homework assignment.
 
 ## References and Literature
+
 Liang Java 10th edition.
 pg. 87, Listing 3.3 (How to make a random number)
 	a. int number1 = (int)(Math.random()*10;
@@ -133,7 +134,165 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working directory clean
 
 D:\KLD_CS1_WorkSpace\RandomCharacter>
+
+C:\Users\LAB>e:
+
+E:\>cd KLD_CS1_WorkSpace
+
+E:\KLD_CS1_WorkSpace>cd RandomCharacter
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>dir
+ Volume in drive E is KASEY
+ Volume Serial Number is 286C-AE8E
+
+ Directory of E:\KLD_CS1_WorkSpace\RandomCharacter
+
+10/30/2015  01:06 PM    <DIR>          .
+10/30/2015  01:06 PM    <DIR>          ..
+10/30/2015  01:06 PM               391 .project
+10/30/2015  01:06 PM    <DIR>          src
+10/30/2015  01:06 PM    <DIR>          bin
+10/30/2015  01:06 PM               232 .classpath
+11/02/2015  09:50 AM             4,547 README2.md.txt
+11/02/2015  09:48 AM             4,201 README.md
+11/02/2015  09:50 AM            14,087 README.docx
+               5 File(s)         23,458 bytes
+               4 Dir(s)   7,619,854,336 bytes free
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git status
+On branch dev
+Your branch is up-to-date with 'origin/dev'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   bin/RandomCharacter.class
+        modified:   src/RandomCharacter.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git add .
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git commit -m "finished code and cleaned up
+"
+[dev c3acdbc] finished code and cleaned up
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: unable to access 'https://github.com/KaseyDelk/HMWK8.git/': Couldn't reso
+lve host 'github.com'
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
+To https://github.com/KaseyDelk/HMWK8.git
+ ! [rejected]        dev -> dev (fetch first)
+error: failed to push some refs to 'https://github.com/KaseyDelk/HMWK8.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git pull
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/KaseyDelk/HMWK8
+   5c18b22..1e76f61  dev        -> origin/dev
+Merge made by the 'recursive' strategy.
+ README.md | 63 ++++++++++++++++++++++++++++++++++++++++++---------------------
+ 1 file changed, 42 insertions(+), 21 deletions(-)
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': KaseyDelk
+Password for 'https://KaseyDelk@github.com':
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 767 bytes | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: hooks/pre-receive.rb:55: warning: already initialized constant PRE_RECEI
+VE_CHECKS
+remote: hooks/pre-receive.rb:48: warning: previous definition of PRE_RECEIVE_CHE
+CKS was here
+To https://github.com/KaseyDelk/HMWK8.git
+   1e76f61..9bbc261  dev -> dev
+
+E:\KLD_CS1_WorkSpace\RandomCharacter>
 ```
+
+## Summary
 
 
 
