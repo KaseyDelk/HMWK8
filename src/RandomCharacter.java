@@ -10,7 +10,7 @@ public class RandomCharacter {
 	}
 	public static char generateRandomCharacter(){
 		int startingValue = 65;
-		
+		// 65 is the number value assigned to letter A		
 		
 		int endingValue = 90 - 65 + 1; 	/*Z was 90
 		/* 90 is the number value assigned to letter B
@@ -20,7 +20,6 @@ public class RandomCharacter {
 		*/
 		
 		char letter = (char)(startingValue + Math.random()*(endingValue));
-		//System.out.print(letterRandom);
 		
 		return letter;
 	}
